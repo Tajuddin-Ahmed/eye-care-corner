@@ -1,0 +1,69 @@
+[
+    {
+        "id":1,
+        "name": "Comprehensive eye exams",
+        "description":"A comprehensive eye exam is a process that usually takes about an hour and gives you a clear idea about the overall state of your eyes. Especially in today’s world of computers, TVs and tons of visual information - it is vital that you go through a routine eye exam at least once a year to eliminate long term vision problems or diseases.",
+        "img":"https://i.ibb.co/HB3YHVt/Using-technology-Qualified-young-modern-doctor-diagnosing-her-little-patent-while-holding-a-consulta.jpg"
+    },
+    {
+        "id":2,
+        "name": "Cataracts",
+        "description":"Cataracts is a clouding of the natural lens inside the eye. They can be caused by age, trauma to the eye, certain diseases and even some medications. The only way to treat cataracts is with surgery to remove the old, clouded lens and replace it with a new , artificial lens to restore your vision and significantly improve your quality of life. Cataract surgery is one of the safest procedures performed today.",
+        "img":"https://i.ibb.co/12nyzdr/Whats-App-Image-2020-01-04-at-5-37-43-PM.jpg"
+    },
+    {
+        "id":3,
+        "name": "Glaucoma Evaluations",
+        "description":"Glaucoma is a medical condition characterized with increased pressure within the eyeball that could slowly lead to permanent loss of sight. One of the horrible things about glaucoma is that in the early stages of glaucoma - when starting treatment can give great results - there are usually no symptoms at all. That’s why it’s so important that you get tested for glaucoma during your annual visit to the eye doctor.",
+        "img":"https://i.ibb.co/W5TnBXY/unnamed.jpg"
+    },
+    {
+        "id":4,
+        "name": "Pediatric eye exams",
+        "description":"Did you know that up to 10% of pre-schoolers and up to 25% of children in school age have problems with their eyes? Taking your children to regular eye exams is important for the condition of their vision throughout their life, and it can also make all the difference in their reading abilities.",
+        "img":"https://i.ibb.co/7ptkpMF/pediatric-1.jpg"
+    },
+    {
+        "id":5,
+        "name": "Lasik evaluations",
+        "description":"Are you sick and tired of having to wear glasses or contact lenses? Would you like to have crystal clear vision naturally, all the time? Just about a decade ago that wouldn’t have been possible, but now, thanks to the advancement in medicine, it is! It can all be solved with a simple laser eye surgery, or LASIK.",
+        "img":"https://i.ibb.co/YyvdQtH/5fad7e98427b4-lasikrightrail.jpg"
+    },
+    {
+        "id":6,
+        "name": "Dry eye treatments",
+        "description":"There are different forms of dry eye. Over 80% of dry eye is caused by Meibomian gland dysfunction (MGD).Depending on the type of dry eye you have, there are different treatments available. The doctors at Pro-Optix can determine what combination of therapies you will need to treat your dry eye.",
+        "img":"https://i.ibb.co/4psfTcf/dry-eye-330x220.jpg"
+    },
+    {
+        "id":7,
+        "name": "Keratoconus management",
+        "description":"Keratoconus is a medical condition that causes your cornea to gradually weaken over time, which affects your vision and overall comfort. If you have any doubts that you may suffer from this condition, or have already been diagnosed, the best thing to do is visit your Optometrist and discuss treatment options.",
+        "img":"https://i.ibb.co/MpBktCg/7j.jpg"
+    },
+    {
+        "id":8,
+        "name": "Diabetic Eye Exams",
+        "description":"Diabetes is one of the most insidious health conditions. While it directly influences the levels of sugar in your blood, it indirectly influences your entire body. It is especially important for diabetics to have regular eye exams due to risks of diabetic retinopathy, which is a complication that can even lead - if untreated - to complete loss of sight. Diabetic retinopathy is more likely to occur with diabetics with Type 2 diabetes, but it is possible to develop in other forms as well.",
+        "img":"https://i.ibb.co/r7DTymq/diabetic-retinopathy-chart.jpg"
+    },
+    {
+        "id":9,
+        "name": "Eye Emergencies",
+        "description":"If you or one of your loved ones are in an accident that has affected their vision in any way, do not hesitate to contact us immediately. We strive to ensure that there is always an on-call specialist at our facilities during our office hours.",
+        "img":"https://i.ibb.co/b6zVBmH/eye-injury-640x427.jpg"
+    },
+    {
+        "id":10,
+        "name": "Eye Allergies",
+        "description":"Eye allergies are very common. Itching , burning and watery eyes can be some indication that you suffer from eye allergies.At Pro Optix, we specialize in identifying the causes for your eye allergy and prescribing the best way to manage and treat it.",
+        "img":"https://i.ibb.co/LN9FYGL/conjunctivitis-650x400-41520408169.jpg"
+    },
+    {
+        "id":11,
+        "name": "Digital Eye Strain",
+        "description":"Over 70% of American adults experience some level Digital Eye Strain (DES) due to use of digital technology. And our children are also at risk – kids under the age of 8 often spend two or more hours per day looking at a digital screen, while for children 8 to 10 years of age, the exposure time jumps to six hours per day!",
+        "img":"https://i.ibb.co/n6tjdYf/Getty-Images-538446740-1024x683.jpg"
+    }
+
+]
