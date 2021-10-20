@@ -21,14 +21,15 @@ const Header = () => {
                         <Nav.Link as={Link} to="/about">About Us</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Navbar.Text>
-                            <a className="text-decoration-none text-uppercase pe-1" href="#login"> {user?.displayName}</a>
-                        </Navbar.Text>
+
                         {
                             user?.email ?
                                 <Button className="ms-4 btn btn-dark btn-sm" onClick={logOut}>Logout </Button> :
                                 <Nav.Link as={Link} to="/login">Login</Nav.Link>
                         }
+                        <Navbar.Text>
+                            <a className="text-decoration-none text-uppercase pe-1" href="#login"> {user.displayName}</a>
+                        </Navbar.Text>
 
                     </Nav>
                 </Navbar.Collapse>

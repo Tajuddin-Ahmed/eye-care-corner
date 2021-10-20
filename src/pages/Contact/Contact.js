@@ -18,7 +18,7 @@ const Contact = () => {
                     <textarea className="form-control" placeholder="Leave a comment here" style={{ height: "100px" }} id="floatingTextarea"></textarea>
                     <label htmlFor="floatingTextarea">Comments</label>
                 </div>
-                <button className="btn btn-primary mt-2">Send</button>
+                <button className="btn btn-primary mt-4">Send</button>
             </div>
         </div>
     );

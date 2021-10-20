@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 
 import initializeAuthentication from '../pages/Login/Firebase/firebase.init';
 initializeAuthentication();
-
+const auth = getAuth();
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [email, setEmail] = useState('');
@@ -12,7 +12,6 @@ const useFirebase = () => {
     const [error, setError] = useState('');
     const [isLogin, setIsLogin] = useState(false);
 
-    const auth = getAuth();
     const signInUsingGoogle = () => {
         const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
@@ -34,9 +33,7 @@ const useFirebase = () => {
     }
     const setUserName = () => {
         updateProfile(auth.currentUser, { displayName: name })
-            .then((result) => {
-
-            })
+            .then(() => { })
     }
     const toggleLogin = e => {
         setIsLogin(e.target.checked);
@@ -55,11 +52,13 @@ const useFirebase = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setError('');
+                setUserName();
+
             })
             .catch(error => {
                 setError(error.message);
             })
-        setUserName();
+
     }
     const processLogin = (email, password) => {
         signInWithEmailAndPassword(auth, email, password)
